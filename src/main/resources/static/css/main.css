@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+input:focus{
+	outline:none;
+}
+
+ul, li{
+	list-style:none;
+}
+
+body{
+	min-width:1280px;
+	width:100%;
+	margin: 0 auto;
+}
+
+.topMenu{
+	width:1280px;
+	text-align:right;
+	margin:24px auto;
+}
+
+.topMenu div{
+	display:inline-block;
+	font-size:14px;
+	font-weight:500;
+	color:#191919;
+	line-height:1.43;
+	border-right:solid 1px #191919;
+	padding-right:10px;
+	cursor:pointer;
+}
+.topMenu div:last-child{
+	border:none;
+	padding-right:0;
+}
+
+.Top{
+	width:1280px;
+	margin: 0 auto;
+}
+
+.Top .logo img{
+	display:block;
+	margin:24px auto 33px;
+	width:174px;
+	height:41px;
+}
+
+.Top .searchBox{
+	float:right;
+	width:215px;
+	height:40px;
+	border-radius:20px;
+	border:1px solid #dddddd;
+	background-color:rgba(238, 238, 238, 0.3);
+	margin-top:-70px;
+}
+
+.Top .searchBox input{
+	background-color:transparent;
+	border:none;
+	padding-left:10px;
+	padding-top:5px;
+	height:30px;
+	width:170px;
+	font-size:16px;
+}
+
+.Top .searchBox img{
+	width:20px;
+	height:20px;
+	cursor:pointer;
+}
+
+.menu{
+	width:1280px;
+	margin: 0 auto;
+}
+
+.menu ul{
+	display:flex;
+	justify-content:space-evenly;
+}
+
+.menu ul li{
+	display: inline-block;
+	font-size:20px;
+	font-weight:bold;
+	color:#111111;
+	cursor:pointer;
+}
+.menu ul li span{
+	color:#29602b;
+	font-weight:800;
+}
+
+.content{
+	width:1280px;
+	margin: 0 auto;
+}
+
+.content .MusicBox{
+	margin-top:55px;
+}
+
+.content .C_title{
+	font-size:24px;
+	font-weight:bold;
+	color:#111111;
+	line-height:0.9;
+}
+
+.content .MusicBox .SlideBox{
+	width:100%;
+	margin-top:27px;
+}
+
+.content .MusicBox .SlideBox .Music_item{
+	width:300px;
+	height:300px;
+}
+
+.content .MusicBox .SlideBox .Music_item img{
+	width:300px;
+	height:300px;
+}
+
+.content .MusicBox .SlideBox .Music_item .MusicInfo{
+	width:300px;
+	height:72px;
+	background-color:rgba(58,58,58,0.8);
+}
+
+.content .MusicBox .SlideBox .Music_item .MusicInfo .M_title{
+	font-size:16px;
+	color:#dedede;
+}
+
+.content .MusicBox .SlideBox .Music_item .MusicInfo .Name{
+	font-size:16px;
+	color:#bebebe;
+}
+
+.content .MusicBox .SlideBox .Music_item .MusicInfo .playBtn{
+	width:20px;
+	height:20px;
+	float:right;
+}
+
+
