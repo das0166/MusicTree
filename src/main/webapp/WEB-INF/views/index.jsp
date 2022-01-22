@@ -21,38 +21,7 @@
 	<div class="MusicBox">
 		<div class="C_title">최신 음악</div>
 		<div class="SlideBox">
-			<div class="Music_item">
-				<img src="${path}/static/img/MusicCover1@2x.png"/>
-				<div class="MusicInfo">
-					<div class="M_title">12312</div>
-					<div class="Name">12312</div>
-					<img src="${path}/static/img/ic_play_white@2x.png" class="playBtn"/>
-				</div>
-			</div>
-			<div class="Music_item">
-				<img src="${path}/static/img/MusicCover2@2x.png"/>
-				<div class="MusicInfo">
-					<div class="M_title">12312</div>
-					<div class="Name">12312</div>
-					<img src="${path}/static/img/ic_play_white@2x.png" class="playBtn"/>
-				</div>
-			</div>
-			<div class="Music_item">
-				<img src="${path}/static/img/MusicCover3@2x.png"/>
-				<div class="MusicInfo">
-					<div class="M_title">12312</div>
-					<div class="Name">12312</div>
-					<img src="${path}/static/img/ic_play_white@2x.png" class="playBtn"/>
-				</div>
-			</div>
-			<div class="Music_item">
-				<img src="${path}/static/img/MusicCover4@2x.png"/>
-				<div class="MusicInfo">
-					<div class="M_title">12312</div>
-					<div class="Name">12312</div>
-					<img src="${path}/static/img/ic_play_white@2x.png" class="playBtn"/>
-				</div>
-			</div>
+			
 		</div>
 	</div>
 	<!-- banner -->
@@ -77,66 +46,7 @@
 				</div>
 			</div>
 			<div class="chartlist">
-				<div class="listItem">
-					<div class="rank">1</div>
-					<div class="musicTitle">12312312</div>
-					<div class="singer">asdf</div>
-					<img src="${path}/static/img/ic_play_green@2x.png" class="playBtn"/>
-				</div>
-				<div class="listItem">
-					<div class="rank">2</div>
-					<div class="musicTitle">12312312</div>
-					<div class="singer">asdf</div>
-					<img src="${path}/static/img/ic_play_green@2x.png" class="playBtn"/>
-				</div>
-				<div class="listItem">
-					<div class="rank">3</div>
-					<div class="musicTitle">12312312</div>
-					<div class="singer">asdf</div>
-					<img src="${path}/static/img/ic_play_green@2x.png" class="playBtn"/>
-				</div>
-				<div class="listItem">
-					<div class="rank">4</div>
-					<div class="musicTitle">12312312</div>
-					<div class="singer">asdf</div>
-					<img src="${path}/static/img/ic_play_green@2x.png" class="playBtn"/>
-				</div>
-				<div class="listItem">
-					<div class="rank">5</div>
-					<div class="musicTitle">12312312</div>
-					<div class="singer">asdf</div>
-					<img src="${path}/static/img/ic_play_green@2x.png" class="playBtn"/>
-				</div>
-				<div class="listItem">
-					<div class="rank">6</div>
-					<div class="musicTitle">12312312</div>
-					<div class="singer">asdf</div>
-					<img src="${path}/static/img/ic_play_green@2x.png" class="playBtn"/>
-				</div>
-				<div class="listItem">
-					<div class="rank">7</div>
-					<div class="musicTitle">12312312</div>
-					<div class="singer">asdf</div>
-					<img src="${path}/static/img/ic_play_green@2x.png" class="playBtn"/>
-				</div>
-				<div class="listItem">
-					<div class="rank">8</div>
-					<div class="musicTitle">12312312</div>
-					<div class="singer">asdf</div>
-					<img src="${path}/static/img/ic_play_green@2x.png" class="playBtn"/>
-				</div>
-				<div class="listItem">
-					<div class="rank">9</div>
-					<div class="musicTitle">12312312</div>
-					<div class="singer">asdf</div>
-					<img src="${path}/static/img/ic_play_green@2x.png" class="playBtn"/>
-				</div>
-				<div class="listItem">
-					<div class="rank">10</div>
-					<div class="musicTitle">12312312</div>
-					<div class="singer">asdf</div>
-					<img src="${path}/static/img/ic_play_green@2x.png" class="playBtn"/>
-				</div>
+				
 			</div>
 		</div>
 		
@@ -149,37 +59,8 @@
 					<img src="${path}/static/img/arrow_right@2x.png"/>
 				</div>
 			</div>
-			<div class="chartlist">
-				<div class="listItem">
-					<div class="albumImg">
-						<img src="${path}/static/img/MusicCover1@2x.png"/>
-					</div>
-					<div class="albumInfo">
-						<div class="musicTitle">12312312</div>
-						<div class="singer">asdf</div>
-						<img src="${path}/static/img/ic_play_green@2x.png" class="playBtn"/>
-					</div>
-				</div>
-				<div class="listItem">
-					<div class="albumImg">
-						<img src="${path}/static/img/MusicCover1@2x.png"/>
-					</div>
-					<div class="albumInfo">
-						<div class="musicTitle">12312312</div>
-						<div class="singer">asdf</div>
-						<img src="${path}/static/img/ic_play_green@2x.png" class="playBtn"/>
-					</div>
-				</div>
-				<div class="listItem">
-					<div class="albumImg">
-						<img src="${path}/static/img/MusicCover1@2x.png"/>
-					</div>
-					<div class="albumInfo">
-						<div class="musicTitle">12312312</div>
-						<div class="singer">asdf</div>
-						<img src="${path}/static/img/ic_play_green@2x.png" class="playBtn"/>
-					</div>
-				</div>
+			<div class="chartList">
+				
 			</div>
 		</div>
 	</div>
@@ -187,7 +68,7 @@
 	<!-- 인기 동영상 -->
 	<div class="videoChart">
 		<div class="Ctitle">
-			실시간 차트
+			인기 동영상
 			<div class="moreBtn">
 				더보기
 				<img src="${path}/static/img/arrow_right@2x.png"/>
@@ -249,9 +130,15 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="${path}/static/js/musictree.js"></script>
 
 <script>
 	$(document).ready(function(){
+		
+		getArtist();
+		getTrack();
+		getAlbum("3");
+		
 		$(".SlideBox").slick({
 			variableWidth:true,
 			dots:true,
@@ -270,6 +157,7 @@
 				el:'.swiper-pagination'
 			}
 		})
+		
 	})
 </script>
 	
