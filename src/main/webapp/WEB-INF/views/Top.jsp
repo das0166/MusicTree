@@ -57,10 +57,30 @@
 </div>
 	
 	<div style="width:100%; height:1px; background-color:#eeeeee;"></div>
+	
+	<div class="topBtn" onclick="goTop();">
+		<img src="${path}/static/img/arrowhead-up.png" />
+		TOP
+	</div>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<script>
+<script>	
 	$(document).ready(function(){
+		
+	
+		if($(this).scrollTop() > 700){
+			$(".topBtn").show();
+		} 
+		
+		$(function(){
+			$(window).scroll(function(){
+				if($(this).scrollTop() > 700){
+					$(".topBtn").fadeIn(300);
+				} else{
+					$(".topBtn").fadeOut(300);
+				}
+			})
+		})
 		
 		var path = window.location.pathname.split('/')[1];
 		
@@ -71,4 +91,12 @@
 		}
 		
 	})
+	
+	function goTop(){
+		$('html, body').animate({
+			scrollTop: 0
+			}, 500);
+	}
+	
+	
 </script>
