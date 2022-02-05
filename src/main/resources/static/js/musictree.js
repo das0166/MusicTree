@@ -135,6 +135,26 @@ function getChart(){
 	})
 }
 
+function getVideo(){
+	
+	$(".loading").hide();
+	
+	for(var i = 0; i < 12; i++){
+		var html = '';
+		
+		html += '<div class="listItem">';
+		
+		if(i%3 == 0){
+		html +='<iframe src="https://www.youtube.com/embed/4GLmT7uv2n4"></iframe></div>';
+		} else if(i%3 == 1){
+			html+='<iframe src="https://www.youtube.com/embed/ujClYsx9hWQ"></iframe></div>';
+		} else{
+			html+='<iframe src="https://www.youtube.com/embed/xNoRmx8GXeY"></iframe></div>';
+		}
+		
+		$(".videoChart .chartList").append(html);
+	}
+}
 
 
 

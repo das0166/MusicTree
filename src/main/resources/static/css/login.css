@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+.content{
+	width:1280px;
+	padding: 100px 0 225px;
+	margin: 0 auto;
+}
+
+.content .title{
+	font-size: 28px;
+	color:#000000;
+	font-weight:bold;
+	text-align:center;
+}
+
+.content form{
+	font-family:'Noto Sans KR', sans-serif;
+	width: 360px;
+	margin: 70px auto 0;
+}
+
+.content #registerForm .formItem{
+	width: 360px;
+	margin-bottom: 20px;
+}
+
+.content #registerForm .formItem label{
+	font-size:16px;
+	color:#101010;
+}
+.content #registerForm .formItem input{
+	width:360px;
+	height:40px;
+	margin-top:12px;
+	padding-left:10px;
+	font-size:16px;
+	border:1px solid #dddddd;
+	border-radius:8px;
+	outline-color:#29602b;
+}
+
+.content #registerForm .formItem .err{
+	font-size:14px;
+	color:#ff4d78;
+	margin:5px 0 0 5px;
+	display:none;
+}
+
+.content #registerForm .registerBtn{
+	width:360px;
+	height:50px;
+	margin:20px 0 100px;
+	background-color:#29602b;
+	color:#ffffff;
+	border:none;
+	font-size:20px;
+	font-weight:500;
+	cursor:pointer;
+	
+}
+
+
+/* login css */
+.content #loginForm .formItem{
+	width:360px;
+	height:45px;
+	border: 1px solid #dddddd;
+	outline-color:#29602b;
+	margin-bottom:15px;
+	padding-left:10px;
+	font-size:16px;
+	color:#000000;
+}
+
+.content #loginForm .loginBtn{
+	width:360px;
+	height:45px;
+	border:none;
+	background-color:#29602b;
+	color:#ffffff;
+	font-size:20px;
+	font-weight:bold;
+	cursor:pointer;
+}

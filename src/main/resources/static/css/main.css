@@ -53,22 +53,25 @@ body{
 	border:1px solid #dddddd;
 	background-color:rgba(238, 238, 238, 0.3);
 	margin-top:-70px;
+	position:relative;
 }
 
 .Top .searchBox input{
 	background-color:transparent;
 	border:none;
-	padding-left:10px;
-	padding-top:11px;
+	padding:10px 0 0 10px;
 	height:30px;
 	width:170px;
 	font-size:16px;
+	outline:none;
 }
 
 .Top .searchBox img{
 	width:20px;
 	height:20px;
 	cursor:pointer;
+	position:absolute;
+	
 }
 
 .menu{
@@ -682,3 +685,86 @@ body{
 	height:20px;
 	cursor:pointer;
 }
+
+.Mcontent .videoChart{
+	margin-top:100px;
+}
+
+.Mcontent .videoChart .chartList .listItem{
+	display:inline-block;
+	width:400px;
+	height:225px;
+	margin:0 40px 20px 0;
+}
+.Mcontent .videoChart .chartList .listItem:nth-child(3n+1){
+	margin-right:0px
+}
+.Mcontent .videoChart .chartList .listItem iframe{
+	width:400px;
+	height:225px;
+}
+
+/* playlist css */
+.pContent{
+	width:1280px;
+	margin: 0 auto;
+	padding: 40px 0 150px;
+}
+
+.pContent .title{
+	font-size:24px;
+	color:#111111;
+	line-height:0.9;
+	font-weight:bold;
+	text-align:center;
+}
+
+.pContent .playChart{
+	width:1280px;
+	margin:100px auto 0;
+}
+
+.pContent .playChart .chartlist .listItem{
+	width:250px;
+	border: 1px solid #dddddd; 
+	display:inline-block;
+	margin: 0 22px 40px 0;
+}
+
+.pContent .playChart .chartlist .listItem:nth-child(4n){
+	margin-right:0;
+}
+
+.pContent .playChart .chartlist .listItem img{
+	width:250px;
+	height:250px;
+}
+
+.pContent .playChart .chartlist .listItem .infoBox{
+	width:250px;
+	height:80px;
+	padding: 20px 15px;
+	position:relative;
+}
+
+.pContent .playChart .chartlist .listItem .infoBox .title{
+	font-size:16px;
+	font-weight:500;
+	text-align:left;
+	margin-bottom:10px;
+}
+
+.pContent .playChart .chartlist .listItem .infoBox .count{
+	font-size:14px;
+	color:#4d4d4d;
+}
+
+.pContent .playChart .chartlist .listItem .infoBox .playBtn{
+	width:20px;
+	height:20px;
+	position:absolute;
+	bottom:20px;
+	right:15px;
+	cursor:pointer;
+}
+
