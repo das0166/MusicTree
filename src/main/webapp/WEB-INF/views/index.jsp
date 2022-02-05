@@ -42,7 +42,7 @@
 				실시간 차트
 				<div class="moreBtn">
 					더보기
-					<img src="${path}/static/img/arrow_right@2x.png"/>
+					<img src="${path}/static/img/arrow_right@2x.png" onclick="location.href='/chart';"/>
 				</div>
 			</div>
 			<div class="chartlist">
@@ -50,13 +50,13 @@
 			</div>
 		</div>
 		
-		<!-- 인기 앨범 -->
+		<!-- 최신 앨범 -->
 		<div class="albumChart">
 			<div class="Ctitle">
-				인기 앨범
+				최신 앨범
 				<div class="moreBtn">
 					더보기
-					<img src="${path}/static/img/arrow_right@2x.png"/>
+					<img src="${path}/static/img/arrow_right@2x.png" onclick="location.href='/music/album';" />
 				</div>
 			</div>
 			<div class="chartList">
@@ -76,16 +76,16 @@
 		</div>
 		<div class="chartlist">
 			<div class="listItem">
-				<iframe src="https://www.youtube.com/embed/5hUgdU2YLuw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe src="https://www.youtube.com/embed/-m9JqGDRKDI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 			<div class="listItem">
-				<iframe src="https://www.youtube.com/embed/5hUgdU2YLuw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe src="https://www.youtube.com/embed/xNoRmx8GXeY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>	
 			<div class="listItem">
-				<iframe src="https://www.youtube.com/embed/5hUgdU2YLuw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe src="https://www.youtube.com/embed/4GLmT7uv2n4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>	
 			<div class="listItem">
-				<iframe src="https://www.youtube.com/embed/5hUgdU2YLuw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe src="https://www.youtube.com/embed/ujClYsx9hWQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>	
 		</div>
 	</div>
