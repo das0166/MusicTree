@@ -8,6 +8,9 @@
 <head>
 <meta charset="UTF-8">
 <title>MusicTree</title>
+
+<link rel="icon" href="${path}/static/img/favicon.ico" type="image/x-icon" />
+
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
@@ -17,6 +20,8 @@
 <body>
 
 <c:import url="./Top.jsp"/>
+
+
 <div class="content">
 	<div class="MusicBox">
 		<div class="C_title">최신 음악</div>
